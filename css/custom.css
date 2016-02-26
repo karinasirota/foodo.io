@@ -2,6 +2,10 @@
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 
+* {
+	font-family: 'Oxygen', sans-serif;
+}
+
 #foodhome {
     background-image: url('../img/tempfood.jpg');
 }
@@ -14,7 +18,11 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  background-color: #ffdb4d;
-    font-family: 'Oxygen', sans-serif;
+  background-color: #ffdb4d;	
+}
+
+.navbar {
+	background-color: #b36b00;
+	font-family: white;
 }
 
