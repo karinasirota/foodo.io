@@ -1,6 +1,16 @@
 /* Add our own Custom CSS styles here */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
+
+#foodhome {
+    background-image: url('../img/tempfood.jpg');
+}
+
+#homebox {
+    opacity: 0.7;
+    background-color: white;
+}
+
 body {
   padding-top: 50px;
   padding-bottom: 20px;
