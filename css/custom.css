@@ -30,3 +30,32 @@ h3 {
     color: white; 
     margin-top: 10px;
 }
+
+h2 {
+    font-size: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#navlink {
+    color: white;
+}
+
+#navlink:hover {
+    color: #ffdb4d;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color:white;
+}
+
+h4 {
+    float:right;
+    color:white;
+}
