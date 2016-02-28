@@ -59,3 +59,43 @@ h4 {
     float:right;
     color:white;
 }
+
+#give-content {
+    margin-top: 20px;
+}
+
+#donate-title {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+#charities {
+    list-style: none;
+    padding: 10px;
+}
+
+.charity {
+    background-color: white;
+    padding: 15px;
+    padding-left: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.charity-title {
+    font-size: 25px;
+}
+
+.charity-description {
+    font-size: 15px;
+}
+
+.donate-button {
+    background-color: lightblue;
+}
+
+.donate-button:hover {
+    background-color: #3ca1c3;
+    border: 1px solid #1e5162;
+}
