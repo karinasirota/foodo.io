@@ -60,13 +60,16 @@ h4 {
     color:white;
 }
 
-#give-content {
-    margin-top: 20px;
+#donate-title {
+    font-size: 63px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
-#donate-title {
-    font-size: 50px;
-    margin-left: 10px;
+#donate-intro {
+    font-size: 25px;
+    margin-left: 15px;
 }
 
 #charities {
@@ -80,7 +83,7 @@ h4 {
     padding-left: 20px;
     margin: 10px;
     border-radius: 20px;
-    width: 500px;
+    width: 600px;
 }
 
 .charity-title {
@@ -89,6 +92,14 @@ h4 {
 
 .charity-description {
     font-size: 15px;
+}
+
+.learn-more{
+    color: blue;
+}
+.learn-more:hover{
+    color: blue;
+    text-decoration: underline;
 }
 
 .donate-button {
