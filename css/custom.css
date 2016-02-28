@@ -22,7 +22,11 @@ body {
 }
 
 .navbar {
-	background-color: #b36b00;
-	font-family: white;
+	background-color: darkorange;
+    border-bottom: darkorange;
 }
 
+h3 {
+    color: white; 
+    margin-top: 10px;
+}
