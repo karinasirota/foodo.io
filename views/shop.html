@@ -50,22 +50,26 @@
     </nav>
 <br><br>
     <!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class ="container" id="shopbox">
+	<div class ="container">
+
+		<p class="shop-title">Shop</p>
+
 		<h2 style="margin-left:15px">
 			My Shopping List 
 		</h2>
+
 		<br>
 		<div class="col-md-4">
-			<table>
+			<table class="shop-table">
 				<tr> 
-					<td>
-						Got it? 
+					<td class = "wide">
+						<p class ="tc-name">Got it? </p>
 					</td>
 					<td>
-						Food
+						<p class ="tc-name">Food </p>
 					</td>
 					<td>
-						Amount
+						<p class ="tc-name">Amount </p>
 					</td>
 				</tr>
 				<tr> 
@@ -79,11 +83,13 @@
 						<input type="text"/>
 					</td>
 					<td>
+						
 						<select>
 							<option value="lb"> lbs </option>
 							<option value="oz"> oz </option>
 							<option value="packages"> packages </option>
 						</select>
+						
 					</td>
 				</tr>
 				<tr> 
@@ -97,11 +103,13 @@
 						<input type="text"/>
 					</td>
 					<td>
+						
 						<select>
 							<option value="lb"> lbs </option>
 							<option value="oz"> oz </option>
 							<option value="packages"> packages </option>
 						</select>
+						
 					</td>
 				</tr>
 				<tr>
@@ -115,11 +123,13 @@
 						<input type="text"/>
 					</td>
 					<td>
+						
 						<select>
 							<option value="lb"> lbs </option>
 							<option value="oz"> oz </option>
 							<option value="packages"> packages </option>
 						</select>
+						
 					</td>
 				</tr>
                 <tr>
@@ -177,12 +187,21 @@
 					</td>
 				</tr>
 			</table>
-            <br>
-            <button type="submit" class="btn btn-success">Save</button>
+
+		</div>		
+	</div>
+	
+	<div class="container">
+		<br>
+		<div class="wrapper">
+		<button class="btn save-button">Save</button>
 		</div>
 	</div>
 	
+        
+	
 	<hr>
+
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
