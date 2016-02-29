@@ -8,13 +8,13 @@
 
 #foodhome {
     background-image: url('../img/tempfood.jpg');
-    height: 500px;
+    height: 400px;
 }
 
 #homebox {
     opacity: 0.7;
     background-color: white;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 50%;
 }
 
