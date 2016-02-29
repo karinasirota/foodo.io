@@ -75,7 +75,7 @@ h4 {
 }
 
 .charity {
-    background-color: white;
+    background-color: lightyellow;
     padding: 15px;
     padding-left: 20px;
     margin: 10px;
@@ -114,4 +114,10 @@ p {
 
 td {
     padding: 10px;
+}
+
+#shopbox {
+    background-color: lightyellow;
+    border-radius: 20px;
+    padding: 20px;
 }
