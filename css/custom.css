@@ -8,11 +8,14 @@
 
 #foodhome {
     background-image: url('../img/tempfood.jpg');
+    height: 500px;
 }
 
 #homebox {
     opacity: 0.7;
     background-color: white;
+    margin-top: 5%;
+    width: 50%;
 }
 
 body {
@@ -109,4 +112,8 @@ h4 {
 .donate-button:hover {
     background-color: #3ca1c3;
     border: 1px solid #1e5162;
+}
+
+p {
+    font-size: 16px;
 }
