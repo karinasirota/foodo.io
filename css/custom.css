@@ -114,10 +114,73 @@ p {
 
 td {
     padding: 10px;
+    width: 300px;
 }
 
 #shopbox {
     background-color: lightyellow;
     border-radius: 20px;
     padding: 20px;
+}
+.tc-name {
+    font-size: 25px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+.wide{
+    width: 150px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 75%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+}
+input[type="text"]:focus {
+  outline: none;
+  border-bottom: solid 2px #969696;
+}
+
+input[type='checkbox'] {
+    transform:scale(2, 2);
+}
+
+
+
+
+.shop-title {
+    font-size: 63px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.save-button {
+    background-color: lightblue;
+    height:70px;
+    width: 100px;
+    
+}
+
+.save-button:hover {
+    background-color: #3ca1c3;
+    border: 1px solid #1e5162;
+}
+.wrapper {
+    text-align: center;
+display:block;
 }
