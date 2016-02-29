@@ -113,7 +113,7 @@ p {
 }
 
 td {
-    padding: 10px;
+    padding: 5px;
     width: 300px;
 }
 
@@ -167,20 +167,4 @@ input[type='checkbox'] {
     margin-left: 10px;
     margin-bottom: 0px;
     text-align: center;
-}
-
-.save-button {
-    background-color: lightblue;
-    height:70px;
-    width: 100px;
-    
-}
-
-.save-button:hover {
-    background-color: #3ca1c3;
-    border: 1px solid #1e5162;
-}
-.wrapper {
-    text-align: center;
-display:block;
 }
