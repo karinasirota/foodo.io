@@ -59,7 +59,7 @@
           <p class="charity-description">The Feeding America network secures and provides food for families in need; operates programs that promote self-sufficiency; educates the public about hunger; and advocates for legislation that protects people from going hungry. <a class="learn-more" href="http://www.feedingamerica.org/" target="_blank">Learn More</a></p>
           <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Donate</button>
 
-          <!-- Modal -->
+          <!-- Donation Modal -->
           <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -73,11 +73,30 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                  <button type="button" class="btn btn-success">Donate</button>
+                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#thankYouModal" data-dismiss="modal" aria-label="Close">Donate</button>
                 </div>
               </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
+
+          <!-- Thank you Modal -->
+          <div class="modal fade" tabindex="-1" role="dialog" id="thankYouModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h3 class="modal-title">Thank you!</h3>
+                </div>
+                <div class="modal-body">
+                  <p>Your donation will help ensure people in need have enough to eat. You now have $____ left to donate. Keep on saving!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
           
         </li>
         <li class="charity">
