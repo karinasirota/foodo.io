@@ -100,15 +100,6 @@ h4 {
     text-decoration: underline;
 }
 
-.donate-button {
-    background-color: lightblue;
-}
-
-.donate-button:hover {
-    background-color: #3ca1c3;
-    border: 1px solid #1e5162;
-}
-
 p {
     font-size: 16px;
 }
@@ -180,3 +171,17 @@ li {
     padding-right: 100px;
 }
 
+button {
+    margin-left: 10px;
+}
+
+#add {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+#clear {
+    background-color: lightcoral;
+    border-color: lightcoral;
+    margin-left:50%;
+}
