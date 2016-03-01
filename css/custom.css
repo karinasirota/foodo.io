@@ -21,12 +21,12 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  background-color: #ffdb4d;	
+  background-color: #ffecad;	
 }
 
 .navbar {
-	background-color: darkorange;
-    border-bottom: darkorange;
+	background-color: #ffa500;
+    border-bottom: #ffa500;
 }
 
 h3 {
@@ -76,7 +76,7 @@ h4 {
 }
 
 .charity {
-    background-color: lightyellow;
+    background-color: white;
     padding: 15px;
     padding-left: 20px;
     margin: 10px;
@@ -156,7 +156,7 @@ input[type='checkbox'] {
 }
 
 .modal-body {
-    background-color: #ffdb4d;
+    background-color: #ffecad;
 }
 
 .shop-title {
@@ -176,12 +176,24 @@ button {
 }
 
 #add {
-    background-color: lightblue;
-    border-color: lightblue;
+    background-color: #86c5da;
+    border-color: #86c5da;
+}
+#add:hover {
+    background-color: #4ba9c8;
+    border-radius: navy;
 }
 
 #clear {
     background-color: lightcoral;
     border-color: lightcoral;
     margin-left:50%;
+}
+#clear:hover {
+    background-color: #ff4703;
+    border-color: #ff4703;
+}
+
+hr {
+    border-color: black;
 }
