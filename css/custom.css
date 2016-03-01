@@ -197,3 +197,7 @@ button {
 hr {
     border-color: black;
 }
+
+#loginfo {
+    padding-left: 60%;
+}
