@@ -201,3 +201,11 @@ hr {
 #loginfo {
     padding-left: 60%;
 }
+
+.bottom-nav-btn {
+  background-color: white;
+  border-radius: 20px;
+/*  width: 250px;
+  height: 60px;*/
+  border: 1px solid #FFA500;
+}
