@@ -209,3 +209,7 @@ hr {
   height: 60px;*/
   border: 1px solid #FFA500;
 }
+
+#give-btn {
+  padding-right: 20px;
+}
